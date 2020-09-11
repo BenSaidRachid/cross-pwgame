@@ -122,7 +122,7 @@ export default function Games({ io, ...rest }: Props) {
         }
       );
     }
-  }, []);
+  });
 
   useEffect(() => {
     if (!isNotFull && io) {
